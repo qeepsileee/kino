@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(./myke-simon-atsUqIm3wxo-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    width: 70%; /* Adjusted to fit better on smaller screens */
+    position: absolute; /* Changed from absolute to prevent cropping on small screens */
+    bottom: 40%;
+}
+
+header h1 {
+    font-size: 22px; /* Slightly smaller for smaller screens */
+    margin-bottom: 15px;
+}
+
+.details p {
+    font-size: 5vw; /* Reduced to fit comfortably on mobile */
+    margin-bottom: 15px;
+}
+
+#countdown-timer {
+    display: flex;
+    width: 80%; /* Adjusted to fit better */
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.time-unit {
+    font-size: 50px; /* Slightly smaller font */
+}
+
+.time-unit p {
+    margin-top: 5px;
+    font-size: 3vw; /* Responsive font size */
+    color: #fff;
+}
+
+#days, #hours, #minutes, #seconds {
+    font-size: 3vw; /* Adjusted for readability */
+}
+
